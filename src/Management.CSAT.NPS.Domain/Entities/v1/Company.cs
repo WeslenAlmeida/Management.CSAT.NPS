@@ -10,5 +10,9 @@ namespace Management.CSAT.NPS.Domain.Entities.v1
     public class Company : IEntity
     {
         public Guid Id { get; set; }
+        public string BussinesName { get; set; }
+        public string Email { get; set; }
+        public string? Region { get; set; }    
+        public string? Channel { get; set; }    
     }
 }
