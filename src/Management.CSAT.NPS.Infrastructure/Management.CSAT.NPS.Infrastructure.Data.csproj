@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Management.CSAT.NPS.Domain\Management.CSAT.NPS.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.CSAT.NPS.Application", "Management.CSAT.NPS.Application\Management.CSAT.NPS.Application.csproj", "{ED01619A-E9C0-4929-ACBC-AA8A74A185AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.CSAT.NPS.Application", "Management.CSAT.NPS.Application\Management.CSAT.NPS.Application.csproj", "{ED01619A-E9C0-4929-ACBC-AA8A74A185AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.CSAT.NPS.Domain", "Management.CSAT.NPS.Domain\Management.CSAT.NPS.Domain.csproj", "{7F35FC6E-28EF-401A-947A-54CDC05DC56D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.CSAT.NPS.Domain", "Management.CSAT.NPS.Domain\Management.CSAT.NPS.Domain.csproj", "{7F35FC6E-28EF-401A-947A-54CDC05DC56D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.CSAT.NPS.Infrastructure", "Management.CSAT.NPS.Infrastructure\Management.CSAT.NPS.Infrastructure.csproj", "{DB443C14-CB11-404C-BDDC-F595ED458325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.CSAT.NPS.Infrastructure.Data", "Management.CSAT.NPS.Infrastructure\Management.CSAT.NPS.Infrastructure.Data.csproj", "{DB443C14-CB11-404C-BDDC-F595ED458325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.CSAT.NPS.CrossCutting", "Management.CSAT.NPS.CrossCutting\Management.CSAT.NPS.CrossCutting.csproj", "{B3E82A49-7D33-44A0-AE77-78B6690B83DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.CSAT.NPS.Infrastructure.CrossCutting", "Management.CSAT.NPS.CrossCutting\Management.CSAT.NPS.Infrastructure.CrossCutting.csproj", "{B3E82A49-7D33-44A0-AE77-78B6690B83DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
