@@ -2,7 +2,7 @@
 
 namespace Management.CSAT.NPS.Domain.Entities.v1
 {
-    public class User : IEntity
+    public class UserEntity : IEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

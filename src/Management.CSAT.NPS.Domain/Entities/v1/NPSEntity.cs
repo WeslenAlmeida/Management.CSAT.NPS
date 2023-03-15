@@ -2,10 +2,10 @@
 
 namespace Management.CSAT.NPS.Domain.Entities.v1
 {
-    public class NPS : IEntity
+    public class NPSEntity : IEntity
     {
         public Guid Id { get; set; }
-        public Company Company { get; set; }
+        public CompanyEntity Company { get; set; }
         public Int16 AssessmentOne { get; set; }
         public string? CommentAssessmentOne { get; set; }
     }

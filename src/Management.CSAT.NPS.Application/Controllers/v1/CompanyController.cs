@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿using Management.CSAT.NPS.Domain.Commands.v1.Company.CreateCompany;
+using Management.CSAT.NPS.Domain.Commands.v1.Company.DeleteCompany;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 

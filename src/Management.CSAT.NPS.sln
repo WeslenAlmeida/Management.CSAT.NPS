@@ -11,6 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.CSAT.NPS.Infrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.CSAT.NPS.Infrastructure.CrossCutting", "Management.CSAT.NPS.CrossCutting\Management.CSAT.NPS.Infrastructure.CrossCutting.csproj", "{B3E82A49-7D33-44A0-AE77-78B6690B83DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{FFFE336B-019A-457B-9F0B-CEF7CBEBF524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{F84B55C2-5792-43F0-B20B-9E0CA06ACBA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infrastructure", "3-Infrastructure", "{E4C91997-19D2-42A3-BA7B-598B0936C3AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-CrossCutting", "4-CrossCutting", "{C59C5227-F095-46EB-848E-3623142A0F7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED01619A-E9C0-4929-ACBC-AA8A74A185AE} = {FFFE336B-019A-457B-9F0B-CEF7CBEBF524}
+		{7F35FC6E-28EF-401A-947A-54CDC05DC56D} = {F84B55C2-5792-43F0-B20B-9E0CA06ACBA4}
+		{DB443C14-CB11-404C-BDDC-F595ED458325} = {E4C91997-19D2-42A3-BA7B-598B0936C3AA}
+		{B3E82A49-7D33-44A0-AE77-78B6690B83DF} = {C59C5227-F095-46EB-848E-3623142A0F7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F37688F2-A020-4C6F-92ED-975CF47D4554}
